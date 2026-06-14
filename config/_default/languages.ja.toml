@@ -1,0 +1,12 @@
+locale = 'ja-jp'
+label = "日本語"
+direction = "ltr"
+weight = 1
+
+title = "数学かきものおき"
+copyright = "&copy; 2026 Unbound Lambda"
+
+[params]
+dateFormat = "2006年1月2日"
+mainSections = ["blog", "note"]
+description = "数学のかきものをおいています．"

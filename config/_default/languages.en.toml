@@ -1,0 +1,13 @@
+locale = "en"
+label = "English"
+direction = "ltr"
+weight = 2
+
+title = "Storage of writings"
+copyright = "&copy; 2026 Unbound Lambda"
+
+[params]
+dateFormat = "2 January 2006"
+
+mainSections = ["blog", "note"]
+description = "Storage of writings"
