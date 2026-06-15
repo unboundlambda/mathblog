@@ -1,17 +1,22 @@
 +++
 title = "Welcome to Congo! :tada:"
 description = "This is a demo of the Congo theme for Hugo."
-date = 2026-06-15T02:45:00+09:00
-categories = ["emacs"]
+date = 2026-06-15T16:01:00+09:00
 draft = false
 toc = true
 +++
 
 {{< lead >}}
-A powerful, lightweight theme for Hugo built with Tailwind CSS.
+This is a demo of the Congo theme for Hugo.
 {{< /lead >}}
 
-[Please see Note]({{< ref "note" >}})
+{{< MathJax >}}
+
+See [Note]({{< relref "note" >}}) and
+[Blog]({{< ref "post" >}}).
+This site can be embedded some mathematical equations
+with MathJax.
+For example, \\(e^{\pi \sqrt{-1}} = -1\\).
 
 
 [//]: # "Exported with love from a post written in Org mode"

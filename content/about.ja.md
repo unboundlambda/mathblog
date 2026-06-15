@@ -1,20 +1,14 @@
 +++
 title = "概要"
-date = 2026-06-15T02:45:00+09:00
-categories = ["emacs"]
+date = 2026-06-15T16:01:00+09:00
 draft = false
 toc = true
 +++
 
-このサイトの概要をかきます．
+このサイトの概要をかくつもりでしたが
+"About" にしておきましょう．試しに PDF をうめこんでみます．
 
-{{< katex >}}
-
-
-## まあいいか {#まあいいか}
-
-あばうとにいこう
-\\(\alpha\\) 変換 \\[12345\\]
+{{< pdfReader "../img/sample1.pdf" >}}
 
 
 [//]: # "Exported with love from a post written in Org mode"

@@ -1,7 +1,6 @@
 +++
 title = "About"
-date = 2026-06-15T02:45:00+09:00
-categories = ["emacs"]
+date = 2026-06-15T16:01:00+09:00
 draft = false
 toc = true
 +++

@@ -1,0 +1,48 @@
+<script type="text/x-mathjax-macros">
+    \def\<#1>{\left<#1\right>}
+    \newcommand{\CC}{\mathbf{C}}
+</script>
+<script>
+    window.MathJax = {
+        tex: {
+            ams: {
+                multlineWidth: "85%"
+            },
+            tags: "ams",
+            tagSide: "right",
+            tagIndent: ".8em",
+            macros: {
+                RR: '{\\bf R}',
+                bold: ['\\boldsymbol{#1}', 1],
+                ddx: ['\\frac{d#2}{d#1}', 2, 'x'],
+                abc: ['(#1)', 1, [null, '\\cba']],
+                Z: '{\\mathbb{Z}}',
+                C: '{\\mathbb{C}}',
+                bold: ['{\\bf #1}', 1]
+            }
+        },
+        chtml: {
+            scale: 1.0,
+            displayAlign: "center",
+            displayIndent: "0em"
+        },
+        svg: {
+            scale: 1.0,
+            displayAlign: "center",
+            displayIndent: "0em"
+        },
+        output: {
+            font: "mathjax-modern",
+            displayOverflow: "overflow"
+        },
+        startup: {
+            ready() {
+                MathJax.startup.defaultReady();
+                const definitions = document.head.querySelector('[type="text/x-mathjax-macros"]');
+                MathJax.tex2mml(definitions.textContent);
+            }
+        }
+    };
+</script>
+
+<script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>

@@ -1,13 +1,13 @@
 +++
 title = "What is a manifold?"
-date = 2026-06-15T02:45:00+09:00
-categories = ["emacs"]
+date = 2026-06-15T16:01:00+09:00
+tags = ["geometry", "manifold"]
 type = "homepage"
 draft = false
 toc = true
 [menu]
   [menu."1.main"]
-    weight = 1006
+    weight = 2002
     identifier = "what-is-a-manifold"
 +++
 

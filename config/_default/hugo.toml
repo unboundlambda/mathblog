@@ -9,6 +9,7 @@ enableRobotsTXT = true
 summaryLength = 0
 
 baseURL = 'https://unboundlambda.github.io/mathblog/'
+#relativeurls = true # not work favicon
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
