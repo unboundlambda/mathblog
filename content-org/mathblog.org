@@ -1,0 +1,205 @@
+#+TITLE: タイトル
+#+AUTHOR: Unbound Lambda
+#+DATE: 2026-06-16 01:57:53
+#+OPTIONS: author:nil H:3 toc:nil creator:nil
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: /
+# #+HUGO_CATEGORIES: Math Computer Physics Philosophy
+# #+HUGO_TAGS: Emacs Org-mode Hugo LaTeX Beamer Lisp
+#+HUGO_CUSTOM_FRONT_MATTER: :toc true
+#+HUGO_PAIRED_SHORTCODES: lead
+#+BIBLIOGRAPHY: mathblog.bib
+
+#+macro: imageclick [[file:./static/images/$1][file:/images/$1]]
+#+macro: relref @@hugo:[$1]({{< relref "$2" >}})@@
+#+macro: pdf @@hugo:{{< pdfReader "$1" >}}@@
+
+* Index-ja
+:PROPERTIES:
+:EXPORT_TITLE: Unbound Lambda のページへようこそ! :tada:
+:EXPORT_FILE_NAME: _index.ja.md
+:EXPORT_HUGO_LOCALE: ja
+:EXPORT_HUGO_TYPE: homepage
+:END:
+
+#+begin_description
+Hugo向けテーマ Congo を用いたサイトです．
+#+end_description
+
+#+begin_lead
+Hugo向けテーマ Congo を用いたサイトです．
+#+end_lead
+
+#+hugo: {{< katex >}}
+
+ここは Congoを使って構築されたデモサイトです．
+{{{relref(ノート,note)}}} と
+@@hugo:[ブログ]({{< ref "posts" >}})@@
+も試しに作ってみました．
+KaTeX を用いて数式を入れることもできます．
+例えば $e^{\pi \sqrt{-1}} = -1$.
+
+* Index-en
+:PROPERTIES:
+:EXPORT_TITLE: Welcome to Congo! :tada:
+:EXPORT_FILE_NAME: _index.en.md
+:EXPORT_HUGO_LOCALE: en
+:END:
+
+#+begin_description
+This is a demo of the Congo theme for Hugo.
+#+end_description
+
+#+begin_lead
+This is a demo of the Congo theme for Hugo.
+#+end_lead
+
+#+HUGO: {{< MathJax >}}
+
+See {{{relref(Note,note)}}} and
+@@hugo:[Blog]({{< ref "posts" >}})@@.
+This site can be embedded some mathematical equations
+with MathJax.
+For example, $e^{\pi \sqrt{-1}} = -1$.
+
+* About-ja 概要
+:PROPERTIES:
+:EXPORT_TITLE: 概要
+:EXPORT_FILE_NAME: about.ja.md
+:EXPORT_HUGO_LOCALE: ja
+:END:
+
+このサイトの概要をかくつもりでしたが
+"About" にしておきましょう．
+試しに PDF をうめこんでみます．
+
+{{{pdf(../img/sample1.pdf)}}}
+
+* About-en
+:PROPERTIES:
+:EXPORT_TITLE: About
+:EXPORT_FILE_NAME: about.en.md
+:EXPORT_HUGO_LOCALE: en
+:END:
+
+#+HUGO:  {{< katex >}}
+
+#+begin_lead
+This page is about about.
+#+end_lead
+
+** Don't care about.
+
+$\alpha$ transformation
+
+[[file:img/sample2.pdf]]
+
+* Note
+** Note index-ja
+:PROPERTIES:
+:EXPORT_TITLE: ノート置き場
+:EXPORT_HUGO_SECTION: note
+:EXPORT_FILE_NAME: _index.ja.md
+:EXPORT_HUGO_LOCALE: ja
+:END:
+
+#+begin_lead
+ノートをおくよ．
+#+end_lead
+
+** Note index-en
+:PROPERTIES:
+:EXPORT_TITLE: Note shelf
+:EXPORT_HUGO_SECTION: note
+:EXPORT_FILE_NAME: _index.en.md
+:EXPORT_HUGO_LOCALE: en
+:END:
+
+#+begin_lead
+Here is Note on Math.
+#+end_lead
+
+** What is a group?                                      :algebra:geometry:
+:PROPERTIES:
+:EXPORT_TITLE: 群とは何か?
+:EXPORT_HUGO_SECTION: note
+:EXPORT_FILE_NAME: group.ja.md
+:EXPORT_HUGO_LOCALE: ja
+:EXPORT_HUGO_TYPE: homepage
+:EXPORT_HUGO_MENU: :menu "1.main"
+:HUGO_CATEGORIES: Math
+:CUSTOM_ID: group-theory
+:END:
+
+#+HUGO: {{< katex >}}
+
+群はわかりにくいのではない．
+分かりにくい説明が流布されているのだ．
+
+$G$ を群とする．
+
+** What is a manifold?                                  :geometry:manifold:
+:PROPERTIES:
+:EXPORT_TITLE: What is a manifold?
+:EXPORT_HUGO_SECTION: note
+:EXPORT_FILE_NAME: manifold.en.md
+:EXPORT_HUGO_LOCALE: en
+:EXPORT_HUGO_MENU: :menu "1.main"
+:CUSTOM_ID: manifold-en
+:END:
+
+Manifolds are globalizations of Eucleadian spaces.
+
+* Blog Posts
+
+** ブログ index-ja
+:PROPERTIES:
+:EXPORT_TITLE: ブログポスト
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: _index.ja.md
+:EXPORT_HUGO_LOCALE: ja
+:END:
+
+#+begin_lead
+ちわーす
+#+end_lead
+
+** Blog index-en
+:PROPERTIES:
+:EXPORT_TITLE: Blog posts
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: _index.en.md
+:EXPORT_HUGO_LOCALE: en
+:END:
+
+#+begin_lead
+Hi, there!!
+#+end_lead
+
+** It is hot today.
+:PROPERTIES:
+:EXPORT_TITLE: It is hot today
+:EXPORT_HUGO_SECTION: posts/2026
+:EXPORT_FILE_NAME: hot.en.md
+:EXPORT_HUGO_LOCALE: en
+:END:
+
+Manifolds are globalizations of Eucleadian spaces.
+** あついよ
+:PROPERTIES:
+:EXPORT_TITLE: あついよ
+:EXPORT_HUGO_SECTION: posts/2026
+:EXPORT_FILE_NAME: hot.ja.md
+:EXPORT_HUGO_LOCALE: ha
+:END:
+
+あちちよ．
+[cite:@Abelson]
+
+#+PRINT_BIBLIOGRAPHY:
+
+* COMMENT Local Variables                                           :ARCHIVE:
+# Local Variables:
+# eval: (toggle-truncate-lines 1)
+# eval: (org-hugo-auto-export-mode -1)
+# End:

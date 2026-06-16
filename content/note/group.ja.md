@@ -1,12 +1,13 @@
 +++
 title = "群とは何か?"
-date = 2026-06-15T16:01:00+09:00
+date = 2026-06-16T01:57:00+09:00
+tags = ["algebra", "geometry"]
 type = "homepage"
 draft = false
 toc = true
 [menu]
   [menu."1.main"]
-    weight = 2001
+    weight = 2003
     identifier = "群とは何か"
 +++
 
@@ -15,7 +16,3 @@ toc = true
 群はわかりにくいのではない．分かりにくい説明が流布されているのだ．
 
 \\(G\\) を群とする．
-
-
-[//]: # "Exported with love from a post written in Org mode"
-[//]: # "- https://github.com/kaushalmodi/ox-hugo"
