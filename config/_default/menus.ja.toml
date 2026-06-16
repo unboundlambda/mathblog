@@ -17,7 +17,7 @@ weight = 10
 
 [[main]]
 name = "ノート"
-pageRef = "note"
+pageRef = "notes"
 weight = 20
 
 [[main]]

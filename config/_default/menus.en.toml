@@ -16,8 +16,8 @@ pageRef = "posts"
 weight = 10
 
 [[main]]
-name = "Note"
-pageRef = "note"
+name = "Notes"
+pageRef = "notes"
 weight = 20
 
 [[main]]

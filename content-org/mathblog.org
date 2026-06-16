@@ -1,6 +1,6 @@
 #+TITLE: タイトル
 #+AUTHOR: Unbound Lambda
-#+DATE: 2026-06-16 01:57:53
+#+DATE: 2026-06-17 01:48:43
 #+OPTIONS: author:nil H:3 toc:nil creator:nil
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: /
@@ -33,7 +33,7 @@ Hugo向けテーマ Congo を用いたサイトです．
 #+hugo: {{< katex >}}
 
 ここは Congoを使って構築されたデモサイトです．
-{{{relref(ノート,note)}}} と
+{{{relref(ノート,notes)}}} と
 @@hugo:[ブログ]({{< ref "posts" >}})@@
 も試しに作ってみました．
 KaTeX を用いて数式を入れることもできます．
@@ -56,7 +56,7 @@ This is a demo of the Congo theme for Hugo.
 
 #+HUGO: {{< MathJax >}}
 
-See {{{relref(Note,note)}}} and
+See {{{relref(Note,notes)}}} and
 @@hugo:[Blog]({{< ref "posts" >}})@@.
 This site can be embedded some mathematical equations
 with MathJax.
@@ -94,11 +94,11 @@ $\alpha$ transformation
 
 [[file:img/sample2.pdf]]
 
-* Note
-** Note index-ja
+* Notes
+** Notes index-ja
 :PROPERTIES:
 :EXPORT_TITLE: ノート置き場
-:EXPORT_HUGO_SECTION: note
+:EXPORT_HUGO_SECTION: notes
 :EXPORT_FILE_NAME: _index.ja.md
 :EXPORT_HUGO_LOCALE: ja
 :END:
@@ -107,10 +107,10 @@ $\alpha$ transformation
 ノートをおくよ．
 #+end_lead
 
-** Note index-en
+** Notes index-en
 :PROPERTIES:
 :EXPORT_TITLE: Note shelf
-:EXPORT_HUGO_SECTION: note
+:EXPORT_HUGO_SECTION: notes
 :EXPORT_FILE_NAME: _index.en.md
 :EXPORT_HUGO_LOCALE: en
 :END:
@@ -122,11 +122,10 @@ Here is Note on Math.
 ** What is a group?                                      :algebra:geometry:
 :PROPERTIES:
 :EXPORT_TITLE: 群とは何か?
-:EXPORT_HUGO_SECTION: note
+:EXPORT_HUGO_SECTION: notes
 :EXPORT_FILE_NAME: group.ja.md
 :EXPORT_HUGO_LOCALE: ja
 :EXPORT_HUGO_TYPE: homepage
-:EXPORT_HUGO_MENU: :menu "1.main"
 :HUGO_CATEGORIES: Math
 :CUSTOM_ID: group-theory
 :END:
@@ -141,10 +140,9 @@ $G$ を群とする．
 ** What is a manifold?                                  :geometry:manifold:
 :PROPERTIES:
 :EXPORT_TITLE: What is a manifold?
-:EXPORT_HUGO_SECTION: note
+:EXPORT_HUGO_SECTION: notes
 :EXPORT_FILE_NAME: manifold.en.md
 :EXPORT_HUGO_LOCALE: en
-:EXPORT_HUGO_MENU: :menu "1.main"
 :CUSTOM_ID: manifold-en
 :END:
 
@@ -190,13 +188,35 @@ Manifolds are globalizations of Eucleadian spaces.
 :EXPORT_TITLE: あついよ
 :EXPORT_HUGO_SECTION: posts/2026
 :EXPORT_FILE_NAME: hot.ja.md
-:EXPORT_HUGO_LOCALE: ha
+:EXPORT_HUGO_LOCALE: ja
 :END:
 
 あちちよ．
 [cite:@Abelson]
 
 #+PRINT_BIBLIOGRAPHY:
+* Sample menu
+:PROPERTIES:
+:EXPORT_TITLE: sample-menu
+:EXPORT_HUGO_SECTION: sample
+:EXPORT_FILE_NAME: index
+:EXPORT_HUGO_LOCALE: ja
+:EXPORT_HUGO_MENU: :menu "sample"
+:END:
+
+** Post 1
+:PROPERTIES:
+:EXPORT_FILE_NAME: post-1
+:END:
+
+ああああああ
+
+** Post 2
+:PROPERTIES:
+:EXPORT_FILE_NAME: post-2
+:END:
+
+いいいいいいい
 
 * COMMENT Local Variables                                           :ARCHIVE:
 # Local Variables:

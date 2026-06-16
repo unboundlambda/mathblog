@@ -1,7 +1,7 @@
 +++
 title = "Welcome to Congo! :tada:"
 description = "This is a demo of the Congo theme for Hugo."
-date = 2026-06-16T01:57:00+09:00
+date = 2026-06-17T01:48:00+09:00
 draft = false
 toc = true
 +++
@@ -12,7 +12,7 @@ This is a demo of the Congo theme for Hugo.
 
 {{< MathJax >}}
 
-See [Note]({{< relref "note" >}}) and
+See [Note]({{< relref "notes" >}}) and
 [Blog]({{< ref "posts" >}}).
 This site can be embedded some mathematical equations
 with MathJax.
