@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://unboundlambda.github.io/sitemap.xml
+Sitemap: https://unboundlambda.github.io/mathblog/sitemap.xml
