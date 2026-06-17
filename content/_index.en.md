@@ -1,7 +1,7 @@
 +++
 title = "Welcome to Congo! :tada:"
 description = "This is a demo of the Congo theme for Hugo."
-date = 2026-06-17T01:48:00+09:00
+date = 2026-06-17T17:20:00+09:00
 draft = false
 toc = true
 +++

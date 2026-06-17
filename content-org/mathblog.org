@@ -1,6 +1,6 @@
 #+TITLE: タイトル
 #+AUTHOR: Unbound Lambda
-#+DATE: 2026-06-17 01:48:43
+#+DATE: 2026-06-17 17:20:16
 #+OPTIONS: author:nil H:3 toc:nil creator:nil
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: /
@@ -92,7 +92,7 @@ This page is about about.
 
 $\alpha$ transformation
 
-[[file:img/sample2.pdf]]
+[[file:./img/sample2.pdf][さんぷる]]
 
 * Notes
 ** Notes index-ja

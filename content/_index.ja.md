@@ -1,7 +1,7 @@
 +++
 title = "Unbound Lambda のページへようこそ! :tada:"
 description = "Hugo向けテーマ Congo を用いたサイトです．"
-date = 2026-06-17T01:48:00+09:00
+date = 2026-06-17T17:20:00+09:00
 type = "homepage"
 draft = false
 toc = true
