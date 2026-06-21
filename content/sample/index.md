@@ -1,6 +1,6 @@
 +++
 title = "sample-menu"
-date = 2026-06-17T17:20:00+09:00
+date = 2026-06-20T00:59:00+09:00
 draft = false
 toc = true
 [menu]
@@ -9,11 +9,11 @@ toc = true
     identifier = "sample-menu"
 +++
 
-## Post 1 {#post-1}
+## <span class="section-num">1</span> Post 1 {#post-1}
 
 ああああああ
 
 
-## Post 2 {#post-2}
+## <span class="section-num">2</span> Post 2 {#post-2}
 
 いいいいいいい
