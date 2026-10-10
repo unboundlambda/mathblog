@@ -1,7 +1,8 @@
 +++
 title = "あついよ"
-date = 2026-06-20T00:59:00+09:00
+date = 2026-06-27T00:46:00+09:00
 draft = false
+weight = 2004
 toc = true
 +++
 

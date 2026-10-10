@@ -1,16 +1,12 @@
 +++
 title = "Unbound Lambda のページへようこそ! :tada:"
 description = "Hugo向けテーマ Congo を用いたサイトです．"
-date = 2026-06-20T00:59:00+09:00
-categories = ["Math"]
+date = 2026-06-27T00:46:00+09:00
 type = "homepage"
 draft = false
+weight = 1001
 toc = true
 +++
-
-{{< lead >}}
-Hugo向けテーマ Congo を用いたサイトです．
-{{< /lead >}}
 
 {{< katex >}}
 

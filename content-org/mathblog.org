@@ -1,20 +1,24 @@
 #+TITLE: タイトル
 #+AUTHOR: Unbound Lambda
-#+DATE: 2026-06-21 00:56:07
+#+DATE: 2026-06-27 00:50:38
+#+STARTUP: show2levels logdone indent inlineimages
 #+OPTIONS: author:nil H:3 toc:nil creator:nil
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: /
-#+FILETAGS: { Context : @Math(m) @Computer(c) @Physics @Philosophy }
-# #+HUGO_CATEGORIES: Math Computer Physics Philosophy
-# #+HUGO_TAGS: Emacs Org-mode Hugo LaTeX Beamer Lisp
+#+HUGO_WEIGHT: auto
+#+HUGO_AUTO_SET_LASTMOD: nil
+#+HUGO_FRONT_MATTER_FORMAT: toml
 #+HUGO_CUSTOM_FRONT_MATTER: :toc true
 #+HUGO_PAIRED_SHORTCODES: lead
 #+BIBLIOGRAPHY: mathblog.bib
 #+macro: imageclick [[file:./static/images/$1][file:/images/$1]]
 #+macro: relref @@hugo:[$1]({{< relref "$2" >}})@@
 #+macro: pdf @@hugo:{{< pdfReader "$1" >}}@@
+# #+FILETAGS: { Context : @Math(m) @Computer(c) @Physics @Philosophy }
+# #+HUGO_CATEGORIES: Math Computer Physics Philosophy
+# #+HUGO_TAGS: Emacs Org-mode Hugo LaTeX Beamer Lisp
 
-* Index-ja                                                           :@Math:
+* Index-ja
 :PROPERTIES:
 :EXPORT_TITLE: Unbound Lambda のページへようこそ! :tada:
 :EXPORT_FILE_NAME: _index.ja.md
@@ -25,10 +29,6 @@
 #+begin_description
 Hugo向けテーマ Congo を用いたサイトです．
 #+end_description
-
-#+begin_lead
-Hugo向けテーマ Congo を用いたサイトです．
-#+end_lead
 
 #+hugo: {{< katex >}}
 
@@ -44,15 +44,12 @@ KaTeX を用いて数式を入れることもできます．
 :EXPORT_TITLE: Welcome to Congo! :tada:
 :EXPORT_FILE_NAME: _index.en.md
 :EXPORT_HUGO_LOCALE: en
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :math false
 :END:
 
 #+begin_description
 This is a demo of the Congo theme for Hugo.
 #+end_description
-
-#+begin_lead
-This is a demo of the Congo theme for Hugo.
-#+end_lead
 
 #+HUGO: {{< MathJax >}}
 
@@ -94,6 +91,38 @@ $\alpha$ transformation
 
 [[file:./img/sample2.pdf][さんぷる]]
 
+* Search-ja
+:PROPERTIES:
+:EXPORT_TITLE: 検索
+:EXPORT_FILE_NAME: search.ja.md
+:EXPORT_HUGO_LOCALE: ja
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout search :summary search :placeholder 検索したい語句をいれてね
+:END:
+
+* Search-en
+:PROPERTIES:
+:EXPORT_TITLE: Search
+:EXPORT_FILE_NAME: search.en.md
+:EXPORT_HUGO_LOCALE: en
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :layout search :summary search :placeholder placeholder text in search input box
+:END:
+
+* Contact-ja
+:PROPERTIES:
+:EXPORT_TITLE: 問合せ
+:EXPORT_FILE_NAME: contact.ja.md
+:EXPORT_HUGO_LOCALE: ja
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :summary 連絡方法
+:END:
+
+* Contact-en
+:PROPERTIES:
+:EXPORT_TITLE: Contact
+:EXPORT_FILE_NAME: contact.en.md
+:EXPORT_HUGO_LOCALE: en
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :summary Contact
+:END:
+
 * Notes
 ** Notes index-ja
 :PROPERTIES:
@@ -103,9 +132,7 @@ $\alpha$ transformation
 :EXPORT_HUGO_LOCALE: ja
 :END:
 
-#+begin_lead
 ノートをおくよ．
-#+end_lead
 
 ** Notes index-en
 :PROPERTIES:
@@ -115,9 +142,7 @@ $\alpha$ transformation
 :EXPORT_HUGO_LOCALE: en
 :END:
 
-#+begin_lead
 Here is Note on Math.
-#+end_lead
 
 ** What is a group?                                      :algebra:geometry:
 :PROPERTIES:
@@ -125,7 +150,6 @@ Here is Note on Math.
 :EXPORT_HUGO_SECTION: notes
 :EXPORT_FILE_NAME: group.ja.md
 :EXPORT_HUGO_LOCALE: ja
-:EXPORT_HUGO_TYPE: homepage
 :HUGO_CATEGORIES: Math
 :CUSTOM_ID: group-theory
 :END:
@@ -146,7 +170,7 @@ $G$ を群とする．
 :CUSTOM_ID: manifold-en
 :END:
 
-Manifolds are globalizations of Eucleadian spaces.
+Manifolds are globalizations of Euclidian spaces.
 
 * Blog Posts
 
@@ -158,9 +182,6 @@ Manifolds are globalizations of Eucleadian spaces.
 :EXPORT_HUGO_LOCALE: ja
 :END:
 
-#+begin_lead
-ちわーす
-#+end_lead
 
 ** Blog index-en
 :PROPERTIES:
@@ -169,10 +190,6 @@ Manifolds are globalizations of Eucleadian spaces.
 :EXPORT_FILE_NAME: _index.en.md
 :EXPORT_HUGO_LOCALE: en
 :END:
-
-#+begin_lead
-Hi, there!!
-#+end_lead
 
 ** It is hot today.
 :PROPERTIES:
@@ -201,9 +218,9 @@ Manifolds are globalizations of Eucleadian spaces.
 :PROPERTIES:
 :EXPORT_TITLE: sample-menu
 :EXPORT_HUGO_SECTION: sample
-:EXPORT_FILE_NAME: index
+:EXPORT_FILE_NAME: _index.ja.md
 :EXPORT_HUGO_LOCALE: ja
-:EXPORT_HUGO_MENU: :menu "sample"
+:EXPORT_HUGO_MENU: :menu "main" :url sample/ :weight 3
 :END:
 
 ** Post 1

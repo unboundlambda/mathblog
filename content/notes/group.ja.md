@@ -1,9 +1,9 @@
 +++
 title = "群とは何か?"
-date = 2026-06-20T00:59:00+09:00
+date = 2026-06-27T00:46:00+09:00
 tags = ["algebra", "geometry"]
-type = "homepage"
 draft = false
+weight = 2003
 toc = true
 +++
 

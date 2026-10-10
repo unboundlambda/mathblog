@@ -1,14 +1,11 @@
 +++
 title = "Welcome to Congo! :tada:"
 description = "This is a demo of the Congo theme for Hugo."
-date = 2026-06-20T00:59:00+09:00
+date = 2026-06-27T00:46:00+09:00
 draft = false
-toc = true
+weight = 1002
+math = false
 +++
-
-{{< lead >}}
-This is a demo of the Congo theme for Hugo.
-{{< /lead >}}
 
 {{< MathJax >}}
 
